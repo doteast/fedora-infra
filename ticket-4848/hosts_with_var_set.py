@@ -1,11 +1,6 @@
 #!/usr/bin/python
 # doteast; base from skvidal
 # dump out the hosts with var=value
-# thoughts: 
-#1- boolean variables vs other type of variables
-#2- multi var=value ANDed
-
-
 
 import ansible.inventory
 import sys
