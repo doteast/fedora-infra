@@ -37,7 +37,7 @@ for host in sorted(inv.get_hosts()):
       if str(vars.get(var_name)).find(value) != -1:
         var_set.append(host.name)
 
-print 'hosts with %s:' % var_name
+print 'hosts with %s=%s:' % (var_name, value)
 for host in sorted(var_set):
     print host
 
